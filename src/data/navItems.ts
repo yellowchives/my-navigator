@@ -195,7 +195,7 @@ export const navItems: NavItem[] = [
   },
   {
     title: '交易可查',
-    url: 'https://www.jiaoyikecha.com/#/',
+    url: 'https://www.jiaoyikecha.com/',
     logo: logo('jiaoyikecha.com'),
     category: '交易',
   },
