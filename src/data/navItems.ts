@@ -63,15 +63,15 @@ export const navItems: NavItem[] = [
   },
   { title: 'Kimi', url: 'https://www.kimi.com/', logo: logo('kimi.com'), category: '工具' },
   {
-    title: 'NotebookLM',
-    url: 'https://notebooklm.google.com/?icid=home_maincta',
-    logo: logo('notebooklm.google.com'),
+    title: 'deepseek',
+    url: 'https://chat.deepseek.com/',
+    logo: logo('deepseek'),
     category: '工具',
   },
   {
-    title: '文档翻译',
-    url: 'https://app.immersivetranslate.com/?utm_source=extension&utm_medium=extension&utm_campaign=popup_btn_document',
-    logo: logo('immersivetranslate.com'),
+    title: 'NotebookLM',
+    url: 'https://notebooklm.google.com/?icid=home_maincta',
+    logo: logo('notebooklm.google.com'),
     category: '工具',
   },
 
