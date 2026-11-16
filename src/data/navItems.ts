@@ -22,6 +22,12 @@ export const navItems: NavItem[] = [
   },
 
   // ── 工具 ──
+  {
+    title: 'deepseek',
+    url: 'https://chat.deepseek.com/',
+    logo: logo('deepseek'),
+    category: '工具',
+  },
   { title: 'OpenAI', url: 'https://chat.openai.com/', logo: logo('openai.com'), category: '工具' },
   {
     title: 'AiStudio',
@@ -63,12 +69,6 @@ export const navItems: NavItem[] = [
   },
   { title: 'Kimi', url: 'https://www.kimi.com/', logo: logo('kimi.com'), category: '工具' },
   {
-    title: 'deepseek',
-    url: 'https://chat.deepseek.com/',
-    logo: logo('deepseek'),
-    category: '工具',
-  },
-  {
     title: 'NotebookLM',
     url: 'https://notebooklm.google.com/?icid=home_maincta',
     logo: logo('notebooklm.google.com'),
@@ -107,12 +107,6 @@ export const navItems: NavItem[] = [
     title: '阿里云盘',
     url: 'https://www.alipan.com/drive/home',
     logo: logo('alipan.com'),
-    category: '常用',
-  },
-  {
-    title: '夸克网盘',
-    url: 'https://pan.quark.cn/list#/list/all',
-    logo: logo('quark.cn'),
     category: '常用',
   },
   { title: '博客榜', url: 'https://xyzrank.com/#/', logo: logo('xyzrank.com'), category: '常用' },
@@ -168,7 +162,12 @@ export const navItems: NavItem[] = [
     logo: '',
     category: '交易',
   },
-  { title: '24h新闻', url: 'https://yellowchives.github.io/24h-news/', logo: '', category: '交易' },
+  {
+    title: '24小时新闻',
+    url: 'https://yellowchives.github.io/24h-news/',
+    logo: '',
+    category: '交易',
+  },
   {
     title: '曲和快讯',
     url: 'https://kuaixun.quheqihuo.com/',
@@ -200,7 +199,7 @@ export const navItems: NavItem[] = [
     category: '交易',
   },
   {
-    title: '大宗产业链',
+    title: '产业链手册',
     url: 'https://yellowchives.github.io/futurebasic/',
     logo: '',
     category: '交易',
