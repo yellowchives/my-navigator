@@ -30,18 +30,11 @@ export const navItems: NavItem[] = [
   },
   { title: 'OpenAI', url: 'https://chat.openai.com/', logo: logo('openai.com'), category: '工具' },
   {
-    title: 'AiStudio',
-    url: 'https://aistudio.google.com/',
-    logo: logo('aistudio.google.com'),
-    category: '工具',
-  },
-  {
     title: 'Gemini',
     url: 'https://gemini.google.com/app',
     logo: logo('gemini.google.com'),
     category: '工具',
   },
-  { title: 'Claude', url: 'https://claude.ai/new', logo: logo('claude.ai'), category: '工具' },
   { title: 'Grok', url: 'https://grok.com/', logo: logo('grok.com'), category: '工具' },
   {
     title: '豆包',
@@ -50,15 +43,15 @@ export const navItems: NavItem[] = [
     category: '工具',
   },
   {
-    title: '千问',
-    url: 'https://www.qianwen.com/chat/',
-    logo: logo('qianwen.com'),
-    category: '工具',
-  },
-  {
     title: '元宝',
     url: 'https://yuanbao.tencent.com/chat/',
     logo: logo('yuanbao.tencent.com'),
+    category: '工具',
+  },
+  {
+    title: '千问',
+    url: 'https://www.qianwen.com/chat/',
+    logo: logo('qianwen.com'),
     category: '工具',
   },
   {
@@ -101,12 +94,6 @@ export const navItems: NavItem[] = [
     title: '百度网盘',
     url: 'https://pan.baidu.com/disk/main#/index?category=all',
     logo: logo('pan.baidu.com'),
-    category: '常用',
-  },
-  {
-    title: '阿里云盘',
-    url: 'https://www.alipan.com/drive/home',
-    logo: logo('alipan.com'),
     category: '常用',
   },
   { title: '博客榜', url: 'https://xyzrank.com/#/', logo: logo('xyzrank.com'), category: '常用' },
